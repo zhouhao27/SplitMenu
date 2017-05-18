@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		388CB1A91ECDBEA00061BF55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388CB1A81ECDBEA00061BF55 /* AppDelegate.swift */; };
-		388CB1AB1ECDBEA00061BF55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388CB1AA1ECDBEA00061BF55 /* ViewController.swift */; };
 		388CB1AE1ECDBEA00061BF55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 388CB1AC1ECDBEA00061BF55 /* Main.storyboard */; };
 		388CB1B01ECDBEA00061BF55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 388CB1AF1ECDBEA00061BF55 /* Assets.xcassets */; };
 		388CB1B31ECDBEA00061BF55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 388CB1B11ECDBEA00061BF55 /* LaunchScreen.storyboard */; };
 		388CB1BE1ECDBEA00061BF55 /* SplitDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388CB1BD1ECDBEA00061BF55 /* SplitDemoTests.swift */; };
+		388CB1C91ECDC1340061BF55 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388CB1C81ECDC1340061BF55 /* MenuViewController.swift */; };
+		388CB1CB1ECDC37E0061BF55 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388CB1CA1ECDC37E0061BF55 /* ContainerViewController.swift */; };
+		38DDBD121ECDD213004CFD23 /* ViewWithSideMenuButtonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DDBD111ECDD213004CFD23 /* ViewWithSideMenuButtonController.swift */; };
+		38DDBD141ECDD22C004CFD23 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DDBD131ECDD22C004CFD23 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +31,6 @@
 /* Begin PBXFileReference section */
 		388CB1A51ECDBEA00061BF55 /* SplitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		388CB1A81ECDBEA00061BF55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		388CB1AA1ECDBEA00061BF55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		388CB1AD1ECDBEA00061BF55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		388CB1AF1ECDBEA00061BF55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		388CB1B21ECDBEA00061BF55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +38,10 @@
 		388CB1B91ECDBEA00061BF55 /* SplitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		388CB1BD1ECDBEA00061BF55 /* SplitDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitDemoTests.swift; sourceTree = "<group>"; };
 		388CB1BF1ECDBEA00061BF55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		388CB1C81ECDC1340061BF55 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		388CB1CA1ECDC37E0061BF55 /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		38DDBD111ECDD213004CFD23 /* ViewWithSideMenuButtonController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewWithSideMenuButtonController.swift; sourceTree = "<group>"; };
+		38DDBD131ECDD22C004CFD23 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +84,14 @@
 			isa = PBXGroup;
 			children = (
 				388CB1A81ECDBEA00061BF55 /* AppDelegate.swift */,
-				388CB1AA1ECDBEA00061BF55 /* ViewController.swift */,
 				388CB1AC1ECDBEA00061BF55 /* Main.storyboard */,
 				388CB1AF1ECDBEA00061BF55 /* Assets.xcassets */,
 				388CB1B11ECDBEA00061BF55 /* LaunchScreen.storyboard */,
 				388CB1B41ECDBEA00061BF55 /* Info.plist */,
+				388CB1C81ECDC1340061BF55 /* MenuViewController.swift */,
+				388CB1CA1ECDC37E0061BF55 /* ContainerViewController.swift */,
+				38DDBD111ECDD213004CFD23 /* ViewWithSideMenuButtonController.swift */,
+				38DDBD131ECDD22C004CFD23 /* HomeViewController.swift */,
 			);
 			path = SplitDemo;
 			sourceTree = "<group>";
@@ -201,8 +210,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				388CB1AB1ECDBEA00061BF55 /* ViewController.swift in Sources */,
+				38DDBD141ECDD22C004CFD23 /* HomeViewController.swift in Sources */,
 				388CB1A91ECDBEA00061BF55 /* AppDelegate.swift in Sources */,
+				388CB1CB1ECDC37E0061BF55 /* ContainerViewController.swift in Sources */,
+				38DDBD121ECDD213004CFD23 /* ViewWithSideMenuButtonController.swift in Sources */,
+				388CB1C91ECDC1340061BF55 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +424,7 @@
 				388CB1C41ECDBEA00061BF55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		388CB1C51ECDBEA00061BF55 /* Build configuration list for PBXNativeTarget "SplitDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +433,7 @@
 				388CB1C71ECDBEA00061BF55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
